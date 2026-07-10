@@ -10,11 +10,11 @@ original, servindo apenas de suporte físico e de interação na cena:
 - KeypadButton.cs: Controla a física individual das teclas do teclado.
 - KeypadInteractionFPV.cs: Auxiliar de colisão/interação de primeiro plano.
 
-------------------------------------------------------------------------
+
 2. Scripts Modificados (pelo grupo)
-------------------------------------------------------------------------
-Os seguintes scripts contêm o teu trabalho de desenvolvimento e integração
-com a lógica do jogo:
+
+Os seguintes scripts contêm modificações feitas para se integrar
+com o funcionamento do jogo:
 
 - SlidingDoor.cs (desenvolvido pelo grupo)
   * Script próprio criado para controlar a abertura física e a animação
