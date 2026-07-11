@@ -13,6 +13,8 @@ using UnityEngine;
 using System.Collections.Generic;
 using Meta.XR.MRUtilityKit;
 
+#region #ai_assisted
+
 /// <summary>
 /// Classe responsável por detectar obstáculos no chão e marcar as células da grelha como ocupadas ou livres
 /// </summary>
@@ -176,3 +178,4 @@ public static class FloorObstacleDetector
         }
     }
 }
+#endregion

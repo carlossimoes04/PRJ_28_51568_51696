@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using Meta.XR.MRUtilityKit;
 
+#region #ai_assisted
 /// <summary>
 /// Classe responsável por analisar as paredes detectadas na sala e 
 /// gerar uma grelha de células para cada parede
@@ -325,3 +326,4 @@ public class WallAnalyzer : MonoBehaviour
     }
 #endif
 }
+#endregion

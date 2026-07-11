@@ -1,6 +1,7 @@
 using UnityEngine;
 using Meta.XR.MRUtilityKit;
 
+#region #my_code
 // Calcula as coordenadas exatas onde os puzzles devem ser posicionados na grelha das paredes ou do chão, 
 // garantindo que aparecem à altura dos olhos do jogador e sem flutuar
 public static class PuzzlePlacementSolver
@@ -121,3 +122,4 @@ public static class PuzzlePlacementSolver
         }
     }
 }
+#endregion

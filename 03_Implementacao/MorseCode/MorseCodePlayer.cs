@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#region #my_code
 [RequireComponent(typeof(AudioSource))]
 public class MorseCodePlayer : MonoBehaviour
 {
@@ -168,3 +169,4 @@ public class MorseCodePlayer : MonoBehaviour
         Debug.Log($"[MorseCodePlayer] mensagem atualizada para {novaMensagem}");
     }
 }
+#endregion

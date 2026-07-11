@@ -1,5 +1,7 @@
 using UnityEngine;
 
+#region #ai_assisted
+
 /// <summary>
 /// Representa uma célula da grelha do chão, contendo informações 
 /// sobre a sua posição e se está livre ou ocupada
@@ -16,3 +18,4 @@ public struct FloorGridCell
     // indica se a célula está livre
     public bool isFree;
 }
+#endregion

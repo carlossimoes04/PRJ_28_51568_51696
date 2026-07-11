@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Meta.XR.MRUtilityKit;
 
+#region #my_code
 /// <summary>
 /// Classe que representa o painel de scan da sala
 /// 
@@ -182,3 +183,4 @@ public class RoomScanPanel : MonoBehaviour
         }
     }
 }
+#endregion

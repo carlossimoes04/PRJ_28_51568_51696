@@ -1,6 +1,7 @@
 using UnityEngine;
 using Meta.XR.MRUtilityKit;
 
+#region #ai_assisted
 /// <summary>
 /// Classe que representa uma grelha de células para análise de paredes
 /// </summary>
@@ -92,3 +93,4 @@ public class WallGrid
         }
     }
 }
+#endregion

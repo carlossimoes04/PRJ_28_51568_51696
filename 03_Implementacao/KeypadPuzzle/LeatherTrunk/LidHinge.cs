@@ -1,5 +1,6 @@
 using UnityEngine;
 
+#region #my_code
 public class LidHinge : MonoBehaviour
 {
     [SerializeField] private float openAngle = -90f; // ângulo quando a tampa está aberta
@@ -59,3 +60,4 @@ public class LidHinge : MonoBehaviour
     /// </summary>
     public bool IsOpen => isOpen;
 }
+#endregion

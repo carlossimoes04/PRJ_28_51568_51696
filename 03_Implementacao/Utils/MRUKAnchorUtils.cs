@@ -2,6 +2,7 @@ using UnityEngine;
 using Meta.XR.MRUtilityKit;
 using System.Collections.Generic;
 
+#region #my_code
 /// <summary>
 /// Classe utilizada para lidar com âncoras do MRUK (Mixed Reality Utility Kit)
 /// 
@@ -160,3 +161,4 @@ public static class MRUKAnchorUtils
         return null; // não se encontrou nenhum quadro disponível
     }
 }
+#endregion

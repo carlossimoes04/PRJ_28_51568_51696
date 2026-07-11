@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+#region #my_code
 public class UISpawnAtCamera : MonoBehaviour
 {
     [Tooltip("câmara do jogador")]
@@ -56,3 +57,4 @@ public class UISpawnAtCamera : MonoBehaviour
         }
     }
 }
+#endregion

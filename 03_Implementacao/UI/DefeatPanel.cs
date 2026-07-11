@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+#region #my_code
 /// <summary>
 /// Painel de derrota do jogo
 /// 
@@ -41,3 +42,4 @@ public class DefeatPanel : MonoBehaviour
         SceneManager.LoadScene(mainMenuScene);
     }
 }
+#endregion

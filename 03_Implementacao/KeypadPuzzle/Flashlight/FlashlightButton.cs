@@ -2,6 +2,7 @@
 using UnityEngine;
 using Oculus.Interaction;
 
+#region #my_code
 public class FlashlightButton : MonoBehaviour
 {
     [Tooltip("Referência à luz da lanterna")]
@@ -56,3 +57,4 @@ public class FlashlightButton : MonoBehaviour
         }
     }
 }
+#endregion

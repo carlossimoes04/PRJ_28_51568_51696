@@ -3,6 +3,7 @@ using UnityEngine.Video;
 using UnityEngine.Events;
 using System.Collections;
 
+#region #my_code
 /// <summary>
 /// Gere a ativação, desativação e o posicionamento dos painéis de interface 
 /// de vitória e derrota em frente ao jogador
@@ -161,3 +162,4 @@ public class EscapeRoomUIManager : MonoBehaviour
         }
     }
 }
+#endregion

@@ -1,6 +1,8 @@
 using UnityEngine;
 using Oculus.Interaction;
 
+
+#region #my_code
 /// <summary>
 /// Componente que representa um botão do keypad colorido
 /// </summary>
@@ -61,3 +63,4 @@ public class KeypadButton : MonoBehaviour
         }
     }
 }
+#endregion

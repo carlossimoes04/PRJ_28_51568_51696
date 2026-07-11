@@ -1,5 +1,7 @@
 using UnityEngine;
 
+#region #my_code
+
 /// <summary>
 /// Classe que revela uma pista quando iluminada por uma luz com a tag "FlashlightLight"
 /// </summary>
@@ -109,3 +111,4 @@ public class LightRevealClue : MonoBehaviour
         _renderer.SetPropertyBlock(_propBlock);
     }
 }
+#endregion

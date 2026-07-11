@@ -1,5 +1,6 @@
 using UnityEngine;
 
+#region #my_code
 public class KeyTab : MonoBehaviour
 {
     public float lockedAngle = 0f; // ângulo quando a aba está trancada
@@ -65,3 +66,4 @@ public class KeyTab : MonoBehaviour
         return Mathf.Abs(currentAngle - targetAngle) < 0.5f;
     }
 }
+#endregion

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+#region #my_code
 /// <summary>
 /// Classe que adiciona efeitos de áudio 3D a um botão UI
 /// </summary>
@@ -86,3 +87,4 @@ public class UIButtonAudio3D : MonoBehaviour
         }
     }
 }
+#endregion

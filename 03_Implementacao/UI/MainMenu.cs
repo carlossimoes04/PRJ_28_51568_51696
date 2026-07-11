@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+#region #my_code
 /// <summary>
 /// Classe que representa o menu principal do jogo
 /// </summary>
@@ -99,3 +100,4 @@ public class MainMenu : MonoBehaviour
         helpPanel.SetActive(false);
     }
 }
+#endregion

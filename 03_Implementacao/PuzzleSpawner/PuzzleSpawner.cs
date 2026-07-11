@@ -2,6 +2,7 @@ using Meta.XR.MRUtilityKit;
 using UnityEngine;
 using System.Collections.Generic;
 
+#region #my_code
 /// <summary>
 /// Coordena todo o fluxo de spawning
 /// 
@@ -491,3 +492,4 @@ public class PuzzleSpawner : MonoBehaviour
         Debug.LogWarning($"[EscapeRoom] todos os objetos do cenário foram destruídos");
     }
 }
+#endregion

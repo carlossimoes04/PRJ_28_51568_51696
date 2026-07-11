@@ -3,6 +3,7 @@ using TMPro;
 using Meta.XR.MRUtilityKit;
 using System.Collections;
 
+#region #my_code
 public class KeypadPuzzle : BasePuzzle
 {
     [Header("Lógica do Keypad")]
@@ -111,3 +112,4 @@ public class KeypadPuzzle : BasePuzzle
             displayText.text = message;
     }
 }
+#endregion

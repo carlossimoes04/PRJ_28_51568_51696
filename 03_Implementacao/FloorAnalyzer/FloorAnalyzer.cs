@@ -2,6 +2,8 @@ using Meta.XR.MRUtilityKit;
 using UnityEngine;
 using System.Collections.Generic;
 
+#region #ai_assisted
+
 /// <summary>
 /// Classe responsável por analisar o chão de uma sala, criando uma grelha de células que representam 
 /// áreas livres e ocupadas, permitindo a deteção de zonas adequadas para posicionamento de objetos
@@ -171,3 +173,4 @@ public class FloorAnalyzer : MonoBehaviour
     }
 #endif
 }
+#endregion

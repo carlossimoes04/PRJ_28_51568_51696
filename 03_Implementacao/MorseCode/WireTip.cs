@@ -1,6 +1,7 @@
 using UnityEngine;
 using Oculus.Interaction;
 
+#region #my_code
 public class WireTip : MonoBehaviour
 {
     [Header("Configuração do Cabo")]
@@ -194,3 +195,4 @@ public class WireTip : MonoBehaviour
         }
     }
 }
+#endregion

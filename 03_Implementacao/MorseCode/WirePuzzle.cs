@@ -3,6 +3,7 @@ using UnityEngine;
 using Meta.XR.MRUtilityKit;
 using TMPro;
 
+#region #my_code
 public class WirePuzzle : BasePuzzle
 {
     /// <summary>
@@ -304,3 +305,4 @@ public class WirePuzzle : BasePuzzle
         }
     }
 }
+#endregion

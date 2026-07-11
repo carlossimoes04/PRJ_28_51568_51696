@@ -1,5 +1,6 @@
 using UnityEngine;
 
+#region #my_code
 /// <summary>
 /// Calcula o tamanho de um prefab com base nos seus renderers e rect transforms
 /// 
@@ -91,3 +92,4 @@ public static class PrefabSizeCalculator
         return new Vector2(Mathf.Max(0.01f, bounds.size.x), Mathf.Max(0.01f, bounds.size.y));
     }
 }
+#endregion

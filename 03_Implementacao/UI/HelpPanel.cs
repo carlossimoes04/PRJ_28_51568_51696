@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
+#region #my_code
 /// <summary>
 /// Painel de ajuda do jogo
 /// 
@@ -208,3 +209,4 @@ public class HelpPanel : MonoBehaviour
         }
     }
 }
+#endregion

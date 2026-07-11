@@ -2,6 +2,8 @@ using UnityEngine;
 using TMPro;
 using Meta.XR.MRUtilityKit;
 
+#region #my_code
+
 /// <summary>
 /// Puzzle da estante de livros
 /// 
@@ -159,3 +161,4 @@ public class BookShelfPuzzle : BasePuzzle
         }
     }
 }
+#endregion

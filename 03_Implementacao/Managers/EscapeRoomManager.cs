@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
 
+#region #my_code
 public class EscapeRoomManager : MonoBehaviour
 {
     [Header("Gestores")]
@@ -131,3 +132,4 @@ public class EscapeRoomManager : MonoBehaviour
         }
     }
 }
+#endregion

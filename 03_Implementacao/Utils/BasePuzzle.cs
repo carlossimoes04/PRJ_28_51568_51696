@@ -1,6 +1,7 @@
 using UnityEngine;
 using Meta.XR.MRUtilityKit;
 
+#region #my_code
 public abstract class BasePuzzle : MonoBehaviour
 {
     public string puzzleId; // ID único (ex: "couch_simon_says")
@@ -37,3 +38,4 @@ public abstract class BasePuzzle : MonoBehaviour
         Debug.Log($"[EscapeRoom] Puzzle '{puzzleId}' SOLVED!");
     }
 }
+#endregion

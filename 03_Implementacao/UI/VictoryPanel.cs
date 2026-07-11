@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+#region #my_code
 /// <summary>
 /// Classe que representa o painel de vitória do jogo
 /// </summary>
@@ -40,3 +41,4 @@ public class VictoryPanel : MonoBehaviour
     }
 
 }
+#endregion

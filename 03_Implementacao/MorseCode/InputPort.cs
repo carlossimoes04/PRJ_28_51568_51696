@@ -1,5 +1,6 @@
 using UnityEngine;
 
+#region #my_code
 /// <summary>
 /// Classe que representa uma tomada de entrada para cabos de Morse Code
 /// </summary>
@@ -24,3 +25,4 @@ public class InputPort : MonoBehaviour
         }
     }
 }
+#endregion

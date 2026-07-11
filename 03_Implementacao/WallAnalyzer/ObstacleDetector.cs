@@ -13,6 +13,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using Meta.XR.MRUtilityKit;
 
+#region #ai_assisted
 public static class ObstacleDetector
 {
     /// <summary>
@@ -176,3 +177,4 @@ public static class ObstacleDetector
         }
     }
 }
+#endregion

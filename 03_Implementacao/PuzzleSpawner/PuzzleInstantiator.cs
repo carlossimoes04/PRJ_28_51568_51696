@@ -2,6 +2,7 @@ using UnityEngine;
 using Meta.XR.MRUtilityKit;
 using System.Collections.Generic;
 
+#region #my_code
 /// <summary>
 /// Classe responsável por instanciar puzzles em posições exatas, 
 /// considerando o tipo de superfície e ajustando a 
@@ -131,3 +132,4 @@ public static class PuzzleInstantiator
         return puzzleInstance;
     }
 }
+#endregion

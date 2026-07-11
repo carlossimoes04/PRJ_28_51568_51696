@@ -1,5 +1,6 @@
 using UnityEngine;
 
+#region #my_code
 public class LidUnlockController : MonoBehaviour
 {
     [SerializeField] private KeyTab leftKeyTab; // referência à KeyTab da esquerda
@@ -88,3 +89,4 @@ public class LidUnlockController : MonoBehaviour
         }
     }
 }
+#endregion

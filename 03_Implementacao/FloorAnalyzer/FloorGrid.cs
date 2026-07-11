@@ -1,6 +1,8 @@
 using UnityEngine;
 using Meta.XR.MRUtilityKit;
 
+#region #ai_assisted
+
 /// <summary>
 /// Classe que representa uma grelha de células no chão, associada a uma âncora de chão específica
 /// </summary>
@@ -87,3 +89,4 @@ public class FloorGrid
         }
     }
 }
+#endregion
