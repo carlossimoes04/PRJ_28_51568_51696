@@ -1,0 +1,9 @@
+Para nos ajudar com a implementação dos módulos de análise de obstáculos em paredes e no chão, utilizámos IA para nos sugerir como organizar os ficheiros. A ideia de dividir o mapeamento entre paredes e chão, bem como o uso de raycasts para ver se as áreas estavam ocupadas por móveis, foi nossa. Usámos a IA apenas para confirmar se esta lógica fazia sentido e para nos ajudar a arrumar os scripts pelas pastas, sem que nos fosse dado qualquer código:
+
+"Olha, estou a fazer um jogo de escape room em realidade aumentada no Unity e preciso de colocar os puzzles automaticamente no quarto do jogador. Tive uma ideia: em vez de fazer um script gigante para tratar de tudo, pensei em dividir isto em dois.
+
+Um para tratar das paredes (que chamei de WallAnalyzer) para colocar, por exemplo, quadros, e outro para tratar do chão (FloorAnalyzer) para colocar, por exemplo, malas.
+
+Para além disso, para detetar os obstáculos reais da sala (como sofás, mesas, etc.), pensei em disparar raycasts a partir de cada quadradinho da grelha dessas superfícies. Se o raio colidir com alguma coisa física a uma distância muito curta, o script sabe que aquele espaço está ocupado e não mete lá o puzzle.
+
+Achas que esta ideia é boa e que faz sentido separar as coisas assim? E como é que achas que posso organizar as pastas e os ficheiros para isto ficar arrumado? Não me dês código, apenas a explicação de como estruturar os scripts."
